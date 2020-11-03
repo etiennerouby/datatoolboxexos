@@ -7,7 +7,7 @@
 #'
 data_ecoregion <- function() {
 
-  ob <- readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_list.csv"))
+  readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_list.csv"))
 
 }
 
@@ -19,7 +19,7 @@ data_ecoregion <- function() {
 #'
 data_mammals <- function() {
 
-  ob <- readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-mammals_list.csv"))
+  readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-mammals_list.csv"))
 
 }
 
@@ -31,7 +31,7 @@ data_mammals <- function() {
 #'
 data_mammals_ecoregions <- function() {
 
-  ob <- readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_species.csv"))
+  readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_species.csv"))
 
 }
 
